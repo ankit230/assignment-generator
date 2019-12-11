@@ -1,0 +1,86 @@
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<title>student registration</title>
+<style>
+    body{
+        background-color: orangered;
+    }
+</style>
+<form class="form-horizontal" action='/trr' method="POST" style="margin-left: 550px;margin-top: 100px;">
+  <fieldset>
+    <div id="legend">
+      <legend class="">Teacher Registeration</legend>
+    </div>
+    <div class="control-group">
+      <!-- Username -->
+      <label class="control-label"  for="username">Faculty name</label>
+      <div class="controls">
+        <input type="text" id="username" name="sn" placeholder="" class="input-xlarge">
+        <p class="help-block">Username can contain any letters or numbers, without spaces</p>
+      </div>
+    </div>
+
+      <div class="control-group">
+      <!-- course-->
+      <label class="control-label"  for="username">Course</label>
+      <div class="controls">
+        <input type="text" id="username" name="c" placeholder="" class="input-xlarge">
+        <p class="help-block">Course in which you got the admission</p>
+      </div>
+    </div>
+
+      <div class="control-group">
+      <!-- branch -->
+      <label class="control-label"  for="username">Branch</label>
+      <div class="controls">
+        <input type="text" id="username" name="b" placeholder="" class="input-xlarge">
+        <p class="help-block">Branch</p>
+      </div>
+    </div>
+
+      <div class="control-group" >
+      <!-- date of admission -->
+      <label class="control-label"  for="username">Date of joining</label>
+      <div class="controls">
+        <input type="date" id="username" name="date" placeholder="" class="input-xlarge">
+
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- E-mail -->
+      <label class="control-label" for="email">E-mail</label>
+      <div class="controls">
+        <input type="text" id="email" name="em" placeholder="" class="input-xlarge">
+        <p class="help-block">Please provide your E-mail</p>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- Password-->
+      <label class="control-label" for="password">Password</label>
+      <div class="controls">
+        <input type="password" id="password" name="pw" placeholder="" class="input-xlarge">
+        <p class="help-block">Password should be at least 4 characters</p>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- Password -->
+      <label class="control-label"  for="password_confirm">Password (Confirm)</label>
+      <div class="controls">
+        <input type="password" id="password_confirm" name="password_confirm" placeholder="" class="input-xlarge">
+        <p class="help-block">Please confirm password</p>
+      </div>
+    </div>
+
+    <div class="control-group">
+      <!-- Button -->
+      <div class="controls">
+        <button class="btn btn-success">Register</button>
+      </div>
+    </div>
+  </fieldset>
+</form>

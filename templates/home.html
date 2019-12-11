@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Admin page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<style>
+    html {
+  scroll-behavior: smooth;
+}
+
+#page  {
+
+}
+
+#section2 {
+
+}
+
+    body{
+        background-color: orangered;
+
+    }
+    .footer {
+
+   left: 0;
+   bottom: 0;
+   margin-top: 600px;
+   height: 250px;
+   width: 100%;
+   background-color: aliceblue;
+   color: orangered;
+   text-align: center;
+}
+    </style>
+<nav class="navbar" style="background-color: orangered" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+
+
+
+            <li> <a href="#section2">contact</a></li>
+
+
+
+
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Registration<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+
+          <li><a href="/str">Student_registration</a></li>
+          <li><a href="/tr">Teacher_registration</a></li>
+        </ul>
+      </li>
+
+
+
+    </ul>
+
+  </div>
+</nav>
+<div class="jumbotron"style="margin-top: -20px; background-color: white;">
+  <h2><b> ITM Group of Institute : VISION, MISSION and VALUES </b></h2><br>
+  <p>Samata Lok Sansthan Trust, registered in 1984 took the concrete initiative for the welfare of rural people especially in the field of education and to eradicate illiteracy & backwardness in Northern region of Madhya Pradesh. As a result in a span of just one decade a good number of institutions dedicated for quality education have come to existence under the umbrella of I T M Universe.</p>
+</div>
+
+<div class="container">
+
+  <p>This is another text.</p>
+</div>
+<div class="container">
+</div>
+
+<div class="container" style="margin-left: 1000px; margin-top: -40px; width: 500px;">
+
+  <div id="legend">
+      <legend class=""> Official_login_Only</legend>
+    </div>
+    <form action="/login" method="post">
+    <div class="form-group" style="width: 400px;">
+      <label for="email">username:</label>
+      <input type="text" class="form-control" id="email" placeholder="Enter username" name="em">
+    </div>
+    <div class="form-group" style="width: 400px">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pw">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">login</button>
+  </form>
+</div>
+<div class="footer">
+    <div class="main" id="section2">
+
+  <a href="#section1">contact</a>
+</div>
+    <p><h2>contact_us</h2></p>
+    <p><h3>Phone_no.9425111619</h3><p>
+</div>
+
+
+
+
+</body>
+</html>
